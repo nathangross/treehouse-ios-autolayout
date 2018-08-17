@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="eqE-8z-0YR">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="d7I-mJ-RgR">
+            <objects>
+                <viewController id="eqE-8z-0YR" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Cpv-2p-yco">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hyX-4u-V3t">
+                                <rect key="frame" x="8" y="28" width="147.5" height="444"/>
+                                <color key="backgroundColor" name="systemPurpleColor" catalog="System" colorSpace="catalog"/>
+                            </view>
+                            <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PK6-ek-Y9S">
+                                <rect key="frame" x="163.5" y="28" width="147.5" height="444"/>
+                                <color key="backgroundColor" name="systemBrownColor" catalog="System" colorSpace="catalog"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="rGH-Lp-4j7" firstAttribute="trailing" secondItem="PK6-ek-Y9S" secondAttribute="trailing" constant="9" id="EyS-TK-dvc"/>
+                            <constraint firstItem="rGH-Lp-4j7" firstAttribute="bottom" secondItem="PK6-ek-Y9S" secondAttribute="bottom" constant="8" id="TSL-JF-Qiw"/>
+                            <constraint firstItem="PK6-ek-Y9S" firstAttribute="leading" secondItem="hyX-4u-V3t" secondAttribute="trailing" constant="8" id="Vd5-cU-N0E"/>
+                            <constraint firstItem="rGH-Lp-4j7" firstAttribute="bottom" secondItem="hyX-4u-V3t" secondAttribute="bottom" constant="8" id="ax1-t9-YlE"/>
+                            <constraint firstItem="hyX-4u-V3t" firstAttribute="top" secondItem="rGH-Lp-4j7" secondAttribute="top" constant="8" id="eYw-zh-Ec7"/>
+                            <constraint firstItem="hyX-4u-V3t" firstAttribute="leading" secondItem="rGH-Lp-4j7" secondAttribute="leading" constant="8" id="fUW-6g-TYo"/>
+                            <constraint firstItem="PK6-ek-Y9S" firstAttribute="top" secondItem="rGH-Lp-4j7" secondAttribute="top" constant="8" id="gKP-QM-J1h"/>
+                            <constraint firstItem="hyX-4u-V3t" firstAttribute="width" secondItem="PK6-ek-Y9S" secondAttribute="width" id="vyw-An-txa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="rGH-Lp-4j7"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kBL-aB-cBV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="67.5" y="158.75"/>
+        </scene>
+    </scenes>
+</document>
