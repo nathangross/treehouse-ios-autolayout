@@ -12,6 +12,7 @@
 		D825476E212716E9005EC38E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D825476C212716E9005EC38E /* Main.storyboard */; };
 		D8254770212716EB005EC38E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D825476F212716EB005EC38E /* Assets.xcassets */; };
 		D8254773212716EB005EC38E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8254771212716EB005EC38E /* LaunchScreen.storyboard */; };
+		D825477B2127395F005EC38E /* LayoutGuides.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D825477A2127395F005EC38E /* LayoutGuides.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D825476F212716EB005EC38E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8254772212716EB005EC38E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8254774212716EB005EC38E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D825477A2127395F005EC38E /* LayoutGuides.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LayoutGuides.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				D8254768212716E9005EC38E /* AppDelegate.swift */,
 				D825476A212716E9005EC38E /* ViewController.swift */,
 				D825476C212716E9005EC38E /* Main.storyboard */,
+				D825477A2127395F005EC38E /* LayoutGuides.storyboard */,
 				D825476F212716EB005EC38E /* Assets.xcassets */,
 				D8254771212716EB005EC38E /* LaunchScreen.storyboard */,
 				D8254774212716EB005EC38E /* Info.plist */,
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8254773212716EB005EC38E /* LaunchScreen.storyboard in Resources */,
+				D825477B2127395F005EC38E /* LayoutGuides.storyboard in Resources */,
 				D8254770212716EB005EC38E /* Assets.xcassets in Resources */,
 				D825476E212716E9005EC38E /* Main.storyboard in Resources */,
 			);
@@ -281,6 +285,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WH53RUP8Z;
 				INFOPLIST_FILE = SpringsAndStruts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WH53RUP8Z;
 				INFOPLIST_FILE = SpringsAndStruts/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
