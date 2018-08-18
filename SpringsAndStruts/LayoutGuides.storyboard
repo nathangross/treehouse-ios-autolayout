@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -18,25 +19,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hyX-4u-V3t">
-                                <rect key="frame" x="8" y="28" width="147.5" height="444"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yJ0-vg-J9w">
+                                <rect key="frame" x="8" y="28" width="148" height="444"/>
                                 <color key="backgroundColor" name="systemPurpleColor" catalog="System" colorSpace="catalog"/>
                             </view>
-                            <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PK6-ek-Y9S">
-                                <rect key="frame" x="163.5" y="28" width="147.5" height="444"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HKb-0R-NBO">
+                                <rect key="frame" x="164" y="369" width="148" height="103"/>
+                                <color key="backgroundColor" name="systemOrangeColor" catalog="System" colorSpace="catalog"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qk7-OD-ZQy">
+                                <rect key="frame" x="164" y="28" width="148" height="333"/>
                                 <color key="backgroundColor" name="systemBrownColor" catalog="System" colorSpace="catalog"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="rGH-Lp-4j7" firstAttribute="trailing" secondItem="PK6-ek-Y9S" secondAttribute="trailing" constant="9" id="EyS-TK-dvc"/>
-                            <constraint firstItem="rGH-Lp-4j7" firstAttribute="bottom" secondItem="PK6-ek-Y9S" secondAttribute="bottom" constant="8" id="TSL-JF-Qiw"/>
-                            <constraint firstItem="PK6-ek-Y9S" firstAttribute="leading" secondItem="hyX-4u-V3t" secondAttribute="trailing" constant="8" id="Vd5-cU-N0E"/>
-                            <constraint firstItem="rGH-Lp-4j7" firstAttribute="bottom" secondItem="hyX-4u-V3t" secondAttribute="bottom" constant="8" id="ax1-t9-YlE"/>
-                            <constraint firstItem="hyX-4u-V3t" firstAttribute="top" secondItem="rGH-Lp-4j7" secondAttribute="top" constant="8" id="eYw-zh-Ec7"/>
-                            <constraint firstItem="hyX-4u-V3t" firstAttribute="leading" secondItem="rGH-Lp-4j7" secondAttribute="leading" constant="8" id="fUW-6g-TYo"/>
-                            <constraint firstItem="PK6-ek-Y9S" firstAttribute="top" secondItem="rGH-Lp-4j7" secondAttribute="top" constant="8" id="gKP-QM-J1h"/>
-                            <constraint firstItem="hyX-4u-V3t" firstAttribute="width" secondItem="PK6-ek-Y9S" secondAttribute="width" id="vyw-An-txa"/>
+                            <constraint firstItem="qk7-OD-ZQy" firstAttribute="height" secondItem="yJ0-vg-J9w" secondAttribute="height" multiplier="0.75" id="0YI-Gj-9U4"/>
+                            <constraint firstItem="qk7-OD-ZQy" firstAttribute="leading" secondItem="yJ0-vg-J9w" secondAttribute="trailing" constant="8" id="15o-Dx-JuZ"/>
+                            <constraint firstItem="HKb-0R-NBO" firstAttribute="leading" secondItem="qk7-OD-ZQy" secondAttribute="leading" id="BFj-Q2-Fbw"/>
+                            <constraint firstItem="HKb-0R-NBO" firstAttribute="trailing" secondItem="qk7-OD-ZQy" secondAttribute="trailing" id="NtD-YI-Io0"/>
+                            <constraint firstItem="HKb-0R-NBO" firstAttribute="top" secondItem="qk7-OD-ZQy" secondAttribute="bottom" constant="8" id="QTT-1P-cbI"/>
+                            <constraint firstItem="HKb-0R-NBO" firstAttribute="bottom" secondItem="yJ0-vg-J9w" secondAttribute="bottom" id="WHp-On-t1u"/>
+                            <constraint firstItem="yJ0-vg-J9w" firstAttribute="leading" secondItem="rGH-Lp-4j7" secondAttribute="leading" constant="8" id="aiq-8X-AQZ"/>
+                            <constraint firstItem="rGH-Lp-4j7" firstAttribute="bottom" secondItem="yJ0-vg-J9w" secondAttribute="bottom" constant="8" id="bZN-th-hKC"/>
+                            <constraint firstItem="yJ0-vg-J9w" firstAttribute="top" secondItem="rGH-Lp-4j7" secondAttribute="top" constant="8" id="jgf-ee-pwF"/>
+                            <constraint firstItem="qk7-OD-ZQy" firstAttribute="width" secondItem="yJ0-vg-J9w" secondAttribute="width" id="lYE-ho-iew"/>
+                            <constraint firstItem="qk7-OD-ZQy" firstAttribute="top" secondItem="yJ0-vg-J9w" secondAttribute="top" id="oOS-TD-sKR"/>
+                            <constraint firstItem="rGH-Lp-4j7" firstAttribute="trailing" secondItem="qk7-OD-ZQy" secondAttribute="trailing" constant="8" id="u0c-Pu-h6n"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="rGH-Lp-4j7"/>
                     </view>

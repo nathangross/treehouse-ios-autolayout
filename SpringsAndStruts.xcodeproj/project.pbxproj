@@ -13,6 +13,7 @@
 		D8254770212716EB005EC38E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D825476F212716EB005EC38E /* Assets.xcassets */; };
 		D8254773212716EB005EC38E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8254771212716EB005EC38E /* LaunchScreen.storyboard */; };
 		D825477B2127395F005EC38E /* LayoutGuides.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D825477A2127395F005EC38E /* LayoutGuides.storyboard */; };
+		D89093282127701100DDFB91 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = D89093272127701100DDFB91 /* View.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D8254772212716EB005EC38E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8254774212716EB005EC38E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D825477A2127395F005EC38E /* LayoutGuides.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LayoutGuides.storyboard; sourceTree = "<group>"; };
+		D89093272127701100DDFB91 /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				D825476F212716EB005EC38E /* Assets.xcassets */,
 				D8254771212716EB005EC38E /* LaunchScreen.storyboard */,
 				D8254774212716EB005EC38E /* Info.plist */,
+				D89093272127701100DDFB91 /* View.xib */,
 			);
 			path = SpringsAndStruts;
 			sourceTree = "<group>";
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8254773212716EB005EC38E /* LaunchScreen.storyboard in Resources */,
+				D89093282127701100DDFB91 /* View.xib in Resources */,
 				D825477B2127395F005EC38E /* LayoutGuides.storyboard in Resources */,
 				D8254770212716EB005EC38E /* Assets.xcassets in Resources */,
 				D825476E212716E9005EC38E /* Main.storyboard in Resources */,
